@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+  apiKey: "AIzaSyAz1pvCR5lcg4zGiG9Nnla1AZa092G3HPY",
+  authDomain: "project-c40-27f8b.firebaseapp.com",
+  projectId: "project-c40-27f8b",
+  storageBucket: "project-c40-27f8b.appspot.com",
+  messagingSenderId: "274657678651",
+  appId: "1:274657678651:web:fa55e26dd0be889045931e"
+};
+
+  // Initialize Firebase
+  var app = initializeApp(firebaseConfig);
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
